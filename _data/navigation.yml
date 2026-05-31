@@ -27,3 +27,32 @@ header:
       en-AU   : *EN
       # @end locale config
     url: /gallery.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       CV
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /cv/cv.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Research
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /research/research.html
+
+
+research-nav:
+  - title:      Topics
+    children:
+      - title:  Topic 1
+        url:    /research/topic1.html
+      - title:  Topic 2
+        url:    /research/topic2.html

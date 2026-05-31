@@ -87,3 +87,10 @@ TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highl
 ## License
 
 TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+
+
+### Modify the headers
+_data/navigation.yml -> then add an .md file where you want it
+
+### READ 
+https://kitian616.github.io/jekyll-TeXt-theme/docs/en/quick-start
