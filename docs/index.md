@@ -15,8 +15,9 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: My Research
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: research/research.md
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
