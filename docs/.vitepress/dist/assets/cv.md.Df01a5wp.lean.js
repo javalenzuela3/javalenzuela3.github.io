@@ -1,0 +1,1 @@
+import{W as e,n as t,rt as n}from"./chunks/framework.9o07hMZQ.js";var r=JSON.parse(`{"title":"cv","description":"","frontmatter":{"title":"cv"},"headers":[],"relativePath":"cv.md","filePath":"cv.md"}`),i={name:`cv.md`};function a(t,r,i,a,o,s){return n(),e(`div`)}var o=t(i,[[`render`,a]]);export{r as __pageData,o as default};
