@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Runtime API Examples | My Webpage</title>
+    <meta name="description" content="A VitePress Site">
+    <meta name="generator" content="VitePress v2.0.0-alpha.20">
+    
+    <link rel="preload stylesheet" href="/assets/style.DtIsQcAv.css" as="style">
+    <link rel="preload stylesheet" href="/assets/vp-icons.139f4833.css" as="style">
+    <script type="module" src="/assets/chunks/metadata.954c6b03.js"></script>
+    <script type="module" src="/assets/app.FZIbSZQy.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.q5rAVC0E.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/assets/chunks/framework.9o07hMZQ.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.Cmf0J4t2.js">
+    <link rel="modulepreload" href="/assets/api-examples.md.Cmd9IOCp.lean.js">
+    <script id="check-dark-mode">(()=>{let e=localStorage.getItem(`vitepress-theme-appearance`)||`auto`,t=window.matchMedia(`(prefers-color-scheme: dark)`).matches;(!e||e===`auto`?t:e===`dark`)&&document.documentElement.classList.add(`dark`)})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle(`mac`,/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-7aa807ef><!--[--><!--]--><!--[--><span tabindex="-1" data-v-426d5ecb></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-426d5ecb>Skip to content</a><!--]--><!----><header class="VPNav" data-v-7aa807ef data-v-f733e610><div class="VPNavBar has-sidebar top" data-v-f733e610 data-v-dac69e74><div class="wrapper" data-v-dac69e74><div class="container" data-v-dac69e74><div class="title" data-v-dac69e74><div class="VPNavBarTitle has-sidebar" data-v-dac69e74 data-v-3cb61e0b><a class="title" href="/" title="My Webpage" data-v-3cb61e0b><!--[--><!--]--><!----><span data-v-3cb61e0b>My Webpage</span><!--[--><!--]--></a></div></div><div class="content" data-v-dac69e74><div class="content-body" data-v-dac69e74><!--[--><!--]--><div class="VPNavBarSearch search" data-v-dac69e74 data-v-b09c5db8><!----></div><nav aria-label="Main Navigation" class="VPNavMenu VPNavBarMenu menu" data-v-dac69e74 data-v-0474edcd><ul class="list" data-v-0474edcd><!--[--><li class="" data-v-0474edcd><a class="VPLink link VPNavMenuLink VPNavBarMenuLink" href="/" data-v-0474edcd data-v-60fe87c8><!--[--><span data-v-60fe87c8>Home</span><!--]--></a></li><li class="" data-v-0474edcd><a class="VPLink link VPNavMenuLink VPNavBarMenuLink" href="/markdown-examples.html" data-v-0474edcd data-v-60fe87c8><!--[--><span data-v-60fe87c8>Examples</span><!--]--></a></li><!--]--></ul></nav><!----><div class="VPNavAppearance VPNavBarAppearance appearance" data-v-dac69e74 data-v-b1d5eb1e><!----><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-label="Appearance" aria-checked="false" data-v-b1d5eb1e data-v-2e76c223 data-v-127358ab><span class="check" data-v-127358ab><span class="icon" data-v-127358ab><!--[--><span class="vpi-sun sun" aria-hidden="true" data-v-2e76c223></span><span class="vpi-moon moon" aria-hidden="true" data-v-2e76c223></span><!--]--></span></span></button></div><ul class="VPSocialLinks VPNavSocialLinks VPNavBarSocialLinks social-links" data-v-dac69e74 data-v-b82bf4eb data-v-bf5b9ad4><!--[--><li data-v-bf5b9ad4><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="me noopener" data-v-bf5b9ad4 data-v-75f3ae3a><span class="vpi-simple-icons-github" data-v-75f3ae3a data-v-ac9da605></span></a></li><!--]--></ul><!----><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="Menu" aria-expanded="false" data-v-dac69e74 data-v-f895b5e0><span class="container" aria-hidden="true" data-v-f895b5e0><span class="top" data-v-f895b5e0></span><span class="middle" data-v-f895b5e0></span><span class="bottom" data-v-f895b5e0></span></span></button></div></div></div></div><div class="divider" data-v-dac69e74><div class="divider-line" data-v-dac69e74></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-7aa807ef data-v-86f10958><div class="container" data-v-86f10958><button type="button" class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-86f10958><span class="vpi-align-left menu-icon" aria-hidden="true" data-v-86f10958></span><span class="menu-text" data-v-86f10958>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-allow-mismatch="style" data-v-86f10958 data-v-b9336427><button type="button" data-v-b9336427>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-7aa807ef data-v-e6e41a9f><div class="curtain" data-v-e6e41a9f></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-e6e41a9f><span class="visually-hidden" id="sidebar-aria-label" data-v-e6e41a9f> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="no-transition group" data-v-70d1d59e><section class="VPSidebarItem level-0 has-active" data-v-70d1d59e data-v-d6fbf2e2><div class="item" data-v-d6fbf2e2><div class="indicator" data-v-d6fbf2e2></div><h2 class="text" data-v-d6fbf2e2>Examples</h2><!----></div><ul class="items" data-v-d6fbf2e2><li data-v-d6fbf2e2><!--[--><div class="VPSidebarItem level-1 is-link" data-v-d6fbf2e2><div class="item" data-v-d6fbf2e2><div class="indicator" data-v-d6fbf2e2></div><a class="VPLink link link" href="/markdown-examples.html" data-v-d6fbf2e2><!--[--><p class="text" data-v-d6fbf2e2>Markdown Examples</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link is-active has-active" data-v-d6fbf2e2><div class="item" data-v-d6fbf2e2><div class="indicator" data-v-d6fbf2e2></div><a class="VPLink link link" href="/api-examples.html" aria-current="page" data-v-d6fbf2e2><!--[--><p class="text" data-v-d6fbf2e2>Runtime API Examples</p><!--]--></a><!----></div><!----></div><!--]--></li></ul></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-7aa807ef data-v-b934d83e><div class="VPDoc has-sidebar has-aside" data-v-b934d83e data-v-e0c79c31><!--[--><!--]--><div class="container" data-v-e0c79c31><div class="aside" data-v-e0c79c31><div class="aside-curtain" data-v-e0c79c31></div><div class="aside-container" data-v-e0c79c31><div class="aside-content" data-v-e0c79c31><div class="VPDocAside" data-v-e0c79c31 data-v-117643ad><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-117643ad data-v-230a2956><div class="content" data-v-230a2956><div class="outline-marker" data-v-230a2956></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-230a2956>On this page</div><ul class="VPDocOutlineItem root" data-v-230a2956 data-v-a7228af7><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-117643ad></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-e0c79c31><div class="content-container" data-v-e0c79c31><!--[--><!--]--><main class="main" data-v-e0c79c31><div style="position:relative;" class="vp-doc _api-examples" data-v-e0c79c31><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to “Runtime API Examples”">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-md"><button title="Copy code" data-copied="Copied" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" dir="ltr"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;script setup&gt;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">import { useData } from &#39;vitepress&#39;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">const { theme, page, frontmatter } = useData()</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;/script&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">## Results</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### Theme Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;pre&gt;{{ theme }}&lt;/pre&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### Page Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;pre&gt;{{ page }}&lt;/pre&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### Page Frontmatter</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;pre&gt;{{ frontmatter }}&lt;/pre&gt;</span></span></code></pre></div><h2 id="results" tabindex="-1">Results <a class="header-anchor" href="#results" aria-label="Permalink to “Results”">​</a></h2><h3 id="theme-data" tabindex="-1">Theme Data <a class="header-anchor" href="#theme-data" aria-label="Permalink to “Theme Data”">​</a></h3><pre>{
+  &quot;nav&quot;: [
+    {
+      &quot;text&quot;: &quot;Home&quot;,
+      &quot;link&quot;: &quot;/&quot;
+    },
+    {
+      &quot;text&quot;: &quot;Examples&quot;,
+      &quot;link&quot;: &quot;/markdown-examples&quot;
+    }
+  ],
+  &quot;sidebar&quot;: [
+    {
+      &quot;text&quot;: &quot;Examples&quot;,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Markdown Examples&quot;,
+          &quot;link&quot;: &quot;/markdown-examples&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Runtime API Examples&quot;,
+          &quot;link&quot;: &quot;/api-examples&quot;
+        }
+      ]
+    }
+  ],
+  &quot;socialLinks&quot;: [
+    {
+      &quot;icon&quot;: &quot;github&quot;,
+      &quot;link&quot;: &quot;https://github.com/vuejs/vitepress&quot;
+    }
+  ]
+}</pre><h3 id="page-data" tabindex="-1">Page Data <a class="header-anchor" href="#page-data" aria-label="Permalink to “Page Data”">​</a></h3><pre>{
+  &quot;title&quot;: &quot;Runtime API Examples&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;frontmatter&quot;: {
+    &quot;outline&quot;: &quot;deep&quot;
+  },
+  &quot;headers&quot;: [],
+  &quot;relativePath&quot;: &quot;api-examples.md&quot;,
+  &quot;filePath&quot;: &quot;api-examples.md&quot;
+}</pre><h3 id="page-frontmatter" tabindex="-1">Page Frontmatter <a class="header-anchor" href="#page-frontmatter" aria-label="Permalink to “Page Frontmatter”">​</a></h3><pre>{
+  &quot;outline&quot;: &quot;deep&quot;
+}</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to “More”">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-e0c79c31 data-v-b328ff8a><!--[--><!--]--><!----><nav class="prev-next" aria-labelledby="doc-footer-aria-label" data-v-b328ff8a><span class="visually-hidden" id="doc-footer-aria-label" data-v-b328ff8a>Pager</span><div class="pager" data-v-b328ff8a><a class="VPLink link pager-link prev" href="/markdown-examples.html" data-v-b328ff8a><!--[--><span class="desc" data-v-b328ff8a>Previous page</span><span class="title" data-v-b328ff8a>Markdown Examples</span><!--]--></a></div><div class="pager" data-v-b328ff8a><!----></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    
+    
+  </body>
+</html>
