@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Webpage",
   description: "A VitePress Site",
-  base: "/docs/",
+  base: "/javalenzuela3.github.io/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
