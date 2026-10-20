@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Joaquín Valenzuela Díaz"
-  text: "Ph.D. Candidate"
+  name: "Welcome to my site!"
+  text: "Subtitle"
   tagline: University of Waterloo
   actions:
     - theme: brand
